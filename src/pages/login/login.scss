@@ -1,0 +1,97 @@
+.login {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #e056ff 0%, #f4a2ff 100%) 100%
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card {
+    display: flex;
+    min-height: 60vh;
+    width: 50%;
+    border-radius: 1em;
+    overflow: hidden;
+    .left {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../../assets/images/social.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      padding: 3em;
+      color: #fff;
+      h1 {
+        font-size: 4em;
+        margin-bottom: 1em;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 2em;
+        line-height: 1.5em;
+      }
+      span {
+        font-size: 14px;
+        margin-bottom: 2em;
+      }
+      button {
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        color: #333;
+        padding: 1em 2em;
+        display: block;
+        transition: all 0.5s !important;
+      }
+      button:hover {
+        background-color: #333;
+        color: #fff;
+        padding: 1em 2em;
+      }
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      padding: 3em;
+      background-color: #fff;
+      h1 {
+        color: #333;
+        margin-bottom: 2em;
+      }
+      form {
+        input {
+          color: #333;
+          margin-bottom: 2em;
+          border: none;
+          border-bottom: 2px solid lightgray;
+          padding: 1em;
+          width: 100%;
+          font-size: 16px;
+        }
+        button {
+          font-size: 14px;
+          font-weight: 600;
+          border-radius: 5px;
+          background-color: #e056ff;
+          border: 2px solid #e056ff;
+          color: #fff;
+          padding: 1em 2em;
+          display: block;
+          transition: all 0.5s !important;
+          width: 100%;
+        }
+        button:hover {
+          background-color: #fff;
+          color: #e056ff;
+          padding: 1em 2em;
+        }
+      }
+    }
+  }
+}
